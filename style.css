@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:wght@300&display=swap');
+
+.dance-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.how1{
+    color: rgb(247, 189, 2);
+    border: 2px solid rgb(247, 189, 2);
+}
+
+.how1:hover {
+    color: black;
+    background: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%);
+}
+
+.insta{
+    color: rgb(218, 75, 53);
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.skill-percentage {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bar {
+    margin-bottom: 25px;
+    background-color: grey;
+    height: 6px;
+    width: 100%;
+    position: relative;
+
+}
+
+.bar::before {
+    content: '';
+    position: absolute;
+    background: radial-gradient(circle at 10% 20%, rgb(247, 189, 2) 0%,rgb(228, 118, 0) 100%);
+    height: 100%;
+}
+
+.html::before {
+    width: 90%;
+}
+
+.css::before {
+    width: 75%;
+}
+
+.js::before {
+    width: 50%;
+}
+
+.python::before {
+    width: 80%;
+}
+
+.cpp::before {
+    width: 65%;
+}
+
+.java::before {
+    width: 75%;
+}
